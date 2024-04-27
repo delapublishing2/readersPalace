@@ -1,5 +1,5 @@
 .button {
-    background-color: var(--gold); /* Using CSS variable for gold color */
+    background-color: #FFD700; /* Using CSS variable for gold color */
     color: var(--deep-blue); /* Using CSS variable for deep blue color */
     padding: 10px 20px;
     border: none;
