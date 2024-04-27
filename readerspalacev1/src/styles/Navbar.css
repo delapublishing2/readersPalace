@@ -4,16 +4,9 @@
 @import url('/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/theme.css');
 
 /* src/styles/Navbar.css */
-.app-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 999;
-}
 
 .navigationBar {
-  background-color: black;
+  background-color: var(--deep-blue); /* Deep Blue color from theme.css */
   color: gold;
   padding: 16px 0;
   display: flex;
@@ -21,31 +14,4 @@
   align-items: center;
   width: 100%;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.nav-links {
-  display: flex;
-  list-style: none;
-  gap: 20px; /* Adjust the space between links */
-}
-
-.nav-links a {
-  color: gold;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-  color: #FFD700; /* Lighter shade of gold for hover effect */
-}
-
-.brand span {
-  font-size: 24px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: color 0.3s ease;
-}
-
-.brand span:hover {
-  color: #FFD700;
 }

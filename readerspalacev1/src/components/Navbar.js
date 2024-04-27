@@ -1,6 +1,5 @@
 // src/components/Navbar.js
 import React from 'react';
-import Button from './JoinButton';
 import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/Navbar.css';
 
 const Navbar = ({ navigate }) => {
@@ -8,17 +7,18 @@ const Navbar = ({ navigate }) => {
     <div className="app-wrapper">
       <nav className="navigationbar">
         <div className="container mx-auto flex justify-between items-center">
-          <Button onClick={() => navigate('home')}>Reader's Palace</Button>
+          <a onClick={() => navigate('home')}>Reader's Palace</a>
           <ul className="flex space-x-6">
-            <li><Button onClick={() => navigate('home')}>Home</Button></li>
-            <li><Button onClick={() => navigate('events')}>Events</Button></li>
-            <li><Button onClick={() => navigate('bookclubs')}>Book Clubs</Button></li>
-            <li><Button onClick={() => navigate('contests')}>Contests</Button></li>
-            <li><Button onClick={() => navigate('blogs')}>Blogs</Button></li>
-            <li><Button onClick={() => navigate('about-us')}>About Us</Button></li>
+            <li><a onClick={() => navigate('home')}>Home</a></li>
+            <li><a onClick={() => navigate('events')}>Events</a></li>
+            <li><a onClick={() => navigate('bookclubs')}>Book Clubs</a></li>
+            <li><a onClick={() => navigate('contests')}>Contests</a></li>
+            <li><a onClick={() => navigate('blogs')}>Blogs</a></li>
+            <li><a onClick={() => navigate('about-us')}>About Us</a></li>
           </ul>
           {/* Add SearchBarComponent here */}
         </div>
+        <NavbarButton onClick={() => navigate('signup')}>Sign Up</NavbarButton>
       </nav>
     </div>
   );
