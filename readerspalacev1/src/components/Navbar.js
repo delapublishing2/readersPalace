@@ -1,6 +1,5 @@
 // src/components/Navbar.js
 import React from 'react';
-import { Link } from 'react-router-dom'; // Assuming you're using react-router for navigation
 import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/Navbar.css';
 
 const Navbar = () => {
