@@ -13,6 +13,7 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
   
+
   .herosection::before {
     content: "";
     position: absolute;
@@ -20,5 +21,12 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.9); /* Adjust the color and opacity to get the desired tint */
-    z-index: 0; /* Ensures the tint is behind the content */}
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: -1; /* Place the tint behind content within .herosection */
+}
+
+/* Ensure content within .herosection is above the tint */
+.herosection > * {
+    position: relative;
+    z-index: 1;
+}
