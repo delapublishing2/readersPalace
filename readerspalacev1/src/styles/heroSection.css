@@ -1,7 +1,7 @@
 /* src/styles/heroSection.css */
 .herosection {
     position: relative;
-    background-image: url('/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/assets/ReadersPalaceHero.JPG');
+    background-image: url('/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/assets/ReadersPalaceHero.JPG'); /* Use a relative path */
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -20,6 +20,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.9); /* Adjust the color and opacity to get the desired tint */
-    z-index: 0; /* Ensures the tint is behind the content but above the background image */
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    z-index: -1; /* Place it behind the content but within the .herosection */
 }
