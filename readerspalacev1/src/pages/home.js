@@ -12,7 +12,6 @@ export default function Home() {
 
     return (
         <div>
-            <Navbar />
             <section id="welcome" className="hero-section">
                 <img src="https://res.cloudinary.com/dhriwtfjq/image/upload/v1711762095/IMG_1716_zbgq3c.jpg" alt="Palace made of books" className="background-image" />
                 <div className="hero-content">
@@ -27,8 +26,6 @@ export default function Home() {
                     <img src="https://cdn.pixabay.com/animation/2022/07/31/05/09/05-09-47-978_512.gif" alt="Loading" />
                 </div>
             )}
-
-            <Footer />
         </div>
 
     );
