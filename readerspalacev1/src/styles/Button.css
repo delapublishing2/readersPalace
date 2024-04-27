@@ -1,7 +1,7 @@
 .button {
     background-color: #FFD700; /* Using CSS variable for gold color */
     color: var(--deep-blue); /* Using CSS variable for deep blue color */
-    padding: 10px 20px;
+    padding: 3rem;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
