@@ -11,7 +11,10 @@ const HeroSection = () => {
         <h1> Palace</h1>
       </div>
       <div className="hero-section-text">
-        <p>Unlock the Majesty of Storytelling at Reader's Palace - A regal haven for book lovers and aspiring authors.</p>
+        <p>
+        <span>Unlock the Majesty of Storytelling at Reader's Palace - A regal</span>
+        <span> haven for book lovers and aspiring authors. </span>
+        </p>
       </div>
       <a href="/signup">
         <Button className="join-button">Join the Community</Button>
