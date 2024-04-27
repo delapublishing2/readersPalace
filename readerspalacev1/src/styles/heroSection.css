@@ -14,7 +14,7 @@
   }
   
 
-  .herosection::before {
+  .hero-section-container {
     content: "";
     position: absolute;
     top: 0;
@@ -22,11 +22,5 @@
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.9);
-    z-index: -1; /* Place the tint behind content within .herosection */
 }
 
-/* Ensure content within .herosection is above the tint */
-.herosection > * {
-    position: relative;
-    z-index: 1;
-}
