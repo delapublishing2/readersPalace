@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import NavigationBar from '../components/NavigationBar';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 export default function Home() {
     const [isContentLoaded, setIsContentLoaded] = useState(false);
@@ -11,7 +12,7 @@ export default function Home() {
 
     return (
         <div>
-            <NavigationBar />
+            <Navbar />
             <section id="welcome" className="hero-section">
                 <img src="https://res.cloudinary.com/dhriwtfjq/image/upload/v1711762095/IMG_1716_zbgq3c.jpg" alt="Palace made of books" className="background-image" />
                 <div className="hero-content">
@@ -21,12 +22,14 @@ export default function Home() {
                 </div>
             </section>
             {/* Other sections */}
-            <ScrollToTopButton onClick={scrollToTop} />
             {!isContentLoaded && (
                 <div className="loading-container">
                     <img src="https://cdn.pixabay.com/animation/2022/07/31/05/09/05-09-47-978_512.gif" alt="Loading" />
                 </div>
             )}
+
+            <Footer />
         </div>
+
     );
 }
