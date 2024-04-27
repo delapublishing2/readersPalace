@@ -34,11 +34,12 @@
 }
 
 .herosection h1 {
-    font-size: 2rem;
+    font-size: 4rem;
     font-family: 'Times New Roman', serif;
     margin-bottom: 8px;
     animation: fade-in 0.5s ease 0.5s forwards;
     opacity: 0;
+
 }
 
 .herosection p {
