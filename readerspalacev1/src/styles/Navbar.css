@@ -5,15 +5,18 @@
 
 /* src/styles/Navbar.css */
 
+/* src/styles/Navbar.css */
+
 .navigationbar {
-  background-color: var(--deep-blue); /* Deep Blue color from theme.css */
-  color: gold;
-  padding: 16px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: black; /* bg-black */
+  color: gold; /* text-gold */
+  padding: 1rem 0; /* py-4 */
+  position: fixed; /* fixed */
+  width: 100%; /* w-full */
+  z-index: 50; /* z-50 */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+  transition: all 0.3s; /* transition-all duration-300 */
+  /* Add other styles for the navigation bar */
 }
 
 .navigationbar ul {
