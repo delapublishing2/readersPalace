@@ -4,6 +4,18 @@
 @import url('/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/theme.css');
 
 /* src/styles/Navbar.css */
+
+.navigationbar {
+  background-color: var(--deep-blue); /* Deep Blue color from theme.css */
+  color: gold;
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
 .navigationbar ul {
   list-style-type: none; /* Removes the bullet points */
   margin: 0;
