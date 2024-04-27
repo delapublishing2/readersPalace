@@ -1,5 +1,5 @@
 /* src/components/HeroSection.css */
-.heroSection {
+.herosection {
     background-image: url('/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/assets/ReadersPalaceHero.JPG'); /* Adjust path as necessary */
     background-size: cover;
     background-position: center;
