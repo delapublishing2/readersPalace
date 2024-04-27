@@ -8,6 +8,7 @@ const HeroSection = () => {
     <section id="welcome" className="herosection">
       <div className="hero-section-header">
         <h1>Welcome to Reader's Palace</h1>
+        <h1> Palace</h1>
       </div>
       <div className="hero-section-text">
         <p>Unlock the Majesty of Storytelling at Reader's Palace - A regal haven for book lovers and aspiring authors.</p>
