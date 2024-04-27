@@ -5,7 +5,7 @@
 
 /* src/styles/Navbar.css */
 
-.navigationBar {
+.navigationbar {
   background-color: var(--deep-blue); /* Deep Blue color from theme.css */
   color: gold;
   padding: 16px 0;
