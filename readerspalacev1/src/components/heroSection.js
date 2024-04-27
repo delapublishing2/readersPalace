@@ -9,7 +9,7 @@ const HeroSection = () => {
         <h1>Welcome to Reader's Palace</h1>
         </div>
      <div className="hero-section-text">
-     <p>Explore the world of books and join our community!</p>
+     <p>Unlock the Majesty of Storytelling at Reader's Palace - A regal haven for book lovers and aspiring authors.</p>
      </div>
      
       {/* Add more elements as needed */}
