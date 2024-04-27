@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Navbar from '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/components/Navbar.js';
+import Footer from '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/components/Footer.js';
 
 export default function Home() {
     const [isContentLoaded, setIsContentLoaded] = useState(false);
