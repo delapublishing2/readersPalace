@@ -1,14 +1,16 @@
-/* Global button styles, can be placed in App.css or button.css */
-button {
-    background-color: var(--gold); /* Gold color */
-    color: var(--deep-blue); /* Deep Blue color */
+.button {
+    background-color: var(--deep-blue); /* Using CSS variable for gold color */
+    color: var(--gold); /* Using CSS variable for deep blue color */
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: bold;
+    border-radius: 9999px; /* To achieve the rounded-full effect */
+    opacity: 1; /* Ensure the button is fully opaque */
 }
 
-button:hover {
-    background-color: var(--deep-blue); /* On hover, switch colors */
-    color: var(--gold);
+.button:hover {
+    background-color: #FFD700; /* Change to desired hover color */
+    transform: scale(1.1); /* Scale up slightly on hover */
 }
