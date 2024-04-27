@@ -1,0 +1,8 @@
+/* src/styles/Footer.css */
+footer {
+    background-color: #333333; /* Charcoal Gray */
+    color: #FFFFF0; /* Ivory */
+    text-align: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
