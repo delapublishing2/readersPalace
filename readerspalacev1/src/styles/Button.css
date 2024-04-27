@@ -1,6 +1,6 @@
 .button {
-    background-color: var(--deep-blue); /* Using CSS variable for gold color */
-    color: var(--gold); /* Using CSS variable for deep blue color */
+    background-color: var(--gold); /* Using CSS variable for gold color */
+    color: var(--deep-blue); /* Using CSS variable for deep blue color */
     padding: 10px 20px;
     border: none;
     cursor: pointer;
