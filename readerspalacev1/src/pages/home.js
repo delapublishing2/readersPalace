@@ -1,32 +1,51 @@
-import React, { useState, useEffect } from 'react';
-import Navbar from '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/components/Navbar.js';
-import Footer from '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/components/Footer.js';
+import React from 'react';
 
-export default function Home() {
-    const [isContentLoaded, setIsContentLoaded] = useState(false);
-
-    useEffect(() => {
-        const timer = setTimeout(() => setIsContentLoaded(true), 2000);
-        return () => clearTimeout(timer);
-    }, []);
-
+function Home() {
     return (
-        <div>
-            <section id="welcome" className="hero-section">
-                <img src="https://res.cloudinary.com/dhriwtfjq/image/upload/v1711762095/IMG_1716_zbgq3c.jpg" alt="Palace made of books" className="background-image" />
-                <div className="hero-content">
-                    <h1>Welcome to Reader's Palace</h1>
-                    <p>Unlock the Majesty of Storytelling at Reader's Palace - A regal haven for book lovers and aspiring authors.</p>
-                    <button onClick={() => window.location.href = '/signup'}>Join the Community</button>
-                </div>
-            </section>
-            {/* Other sections */}
-            {!isContentLoaded && (
-                <div className="loading-container">
-                    <img src="https://cdn.pixabay.com/animation/2022/07/31/05/09/05-09-47-978_512.gif" alt="Loading" />
-                </div>
-            )}
-        </div>
-
+      <div className="home">
+        <section className="hero-header">
+          <h1>Welcome to Reader's Palace</h1>
+          <p>A captivating gateway featuring highlights of upcoming events, book clubs, contests, and blogs.</p>
+        </section>
+        <section className="feature-section">
+          <h2>Explore Our Features</h2>
+          <p>Highlighting the unique value proposition of Reader's Palace, inviting visitors to explore the literary world.</p>
+        </section>
+        <section className="features-list">
+          <h2>Key Features</h2>
+          <ul>
+            <li>Upcoming Events</li>
+            <li>Book Clubs</li>
+            <li>Contests</li>
+            <li>Latest Blog Posts</li>
+          </ul>
+        </section>
+        <section className="benefits">
+          <h2>Benefits of Joining</h2>
+          <p>Explaining the benefits of joining the Reader's Palace community for book lovers and aspiring authors.</p>
+        </section>
+        <section className="cta">
+          <h2>Join Our Community</h2>
+          <button>Sign Up Now</button>
+        </section>
+        <section className="gallery">
+          <h2>Gallery</h2>
+          <p>A visual display of book covers, event photos, and featured authors to engage visitors.</p>
+        </section>
+        <section className="faq">
+          <h2>FAQ</h2>
+          <p>Answering common questions about Reader's Palace services and community involvement.</p>
+        </section>
+        <section className="testimonials">
+          <h2>Testimonials</h2>
+          <p>Showcasing testimonials from members about their positive experiences with Reader's Palace.</p>
+        </section>
+        <section className="final-cta">
+          <h2>Get Involved</h2>
+          <button>Participate in Events</button>
+        </section>
+      </div>
     );
-}
+  }
+  
+  export default Home;
