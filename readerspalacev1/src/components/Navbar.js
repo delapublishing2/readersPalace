@@ -1,14 +1,15 @@
+// src/components/Navbar.js
 import React from 'react';
-import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/Navbar.css'; // Adjust the path as necessary based on your project structure
+import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/Navbar.css'
 
-function Navbar({ setCurrentPage }) {
+const Navbar = ({ navigate }) => {
   return (
     <nav>
-      <button onClick={() => setCurrentPage('Home')}>Home</button>
-      <button onClick={() => setCurrentPage('AboutUs')}>About Us</button>
-      // Add other buttons similarly
+      <button onClick={() => navigate('home')}>Home</button>
+      <button onClick={() => navigate('about-us')}>About Us</button>
+      {/* Add other navigation buttons */}
     </nav>
   );
-}
+};
 
 export default Navbar;
