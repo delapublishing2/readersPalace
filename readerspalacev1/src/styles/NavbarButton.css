@@ -19,4 +19,5 @@
 .navbar-button:hover, .navbar-button:focus {
     background-color: var(--deep-blue);
     color: var(--gold);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }

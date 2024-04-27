@@ -16,7 +16,7 @@
 }
 
 .join-button:hover, .join-button:focus {
-    background-color: var(--deep-blue); /* Change on hover/focus */
+    background-color: var(--deep-blue);
     color: var(--gold);
-    transform: scale(1.05); /* Slightly increase size on hover/focus for feedback */
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
