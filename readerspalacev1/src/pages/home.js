@@ -1,4 +1,5 @@
 import React from 'react';
+import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/home.css'
 
 function Home() {
     return (
