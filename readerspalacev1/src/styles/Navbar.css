@@ -1,0 +1,21 @@
+/* src/styles/Navbar.css */
+nav {
+    background-color: #002366; /* Deep Blue */
+    color: #FFFFF0; /* Ivory */
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-family: 'Arial', sans-serif; /* Example font */
+  }
+  
+  nav button {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    text-decoration: underline;
+  }

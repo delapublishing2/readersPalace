@@ -1,23 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import './styles/Navbar.css'; // Adjust the path as necessary based on your project structure
 
-const Navbar = () => {
-    return (
-        <nav style={{ background: 'var(--deep-blue)', color: 'var(--ivory)' }}>
-            <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about-us">About Us</Link></li>
-                <li><Link to="/events">Events</Link></li>
-                <li><Link to="/blogs">Blogs</Link></li>
-                <li><Link to="/book-clubs">Book Clubs</Link></li>
-                <li><Link to="/contests">Contests</Link></li>
-                <li><Link to="/resources">Resources</Link></li>
-                <li><Link to="/authors-spotlight">Author's Spotlight</Link></li>
-                <li><Link to="/forums">Forums</Link></li>
-                <li><Link to="/signup">Signup</Link></li>
-            </ul>
-        </nav>
-    );
-};
+function Navbar({ setCurrentPage }) {
+  return (
+    <nav>
+      <button onClick={() => setCurrentPage('Home')}>Home</button>
+      <button onClick={() => setCurrentPage('AboutUs')}>About Us</button>
+      // Add other buttons similarly
+    </nav>
+  );
+}
 
 export default Navbar;

@@ -1,24 +1,29 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import React, { useState } from 'react';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './pages/home';
 import AboutUs from './pages/AboutUs';
-import Events from './pages/Events';
-// Import other pages
-
-import Navbar from './components/Navbar'; // Assuming Navbar is a component
-import Footer from './components/Footer'; // Assuming Footer is a component
+// Import other pages similarly
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('Home');
+
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'AboutUs':
+        return <AboutUs />;
+      // Handle other cases
+      default:
+        return <Home />;
+    }
+  };
+
   return (
-    <Router>
-      <Navbar />
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/about-us" component={AboutUs} />
-        <Route path="/events" component={Events} />
-        {/* Define other routes */}
-      </Switch>
+    <div>
+      <Navbar setCurrentPage={setCurrentPage} />
+      {renderPage()}
       <Footer />
-    </Router>
+    </div>
   );
 }
 
