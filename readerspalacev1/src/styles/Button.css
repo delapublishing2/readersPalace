@@ -1,16 +1,19 @@
-.button {
-    background-color: #FFD700; /* Using CSS variable for gold color */
-    color: var(--deep-blue); /* Using CSS variable for deep blue color */
-    padding: 1rem;
+.join-button {
+    background-color: var(--gold); /* Gold color from theme.css */
+    color: var(--deep-blue); /* Deep blue color from theme.css */
+    padding: 15px 30px;
+    font-weight: bold;
     border: none;
     cursor: pointer;
+    border-radius: 9999px; /* Fully rounded corners */
     transition: background-color 0.3s ease, transform 0.3s ease;
-    font-weight: bold;
-    border-radius: 9999px; /* To achieve the rounded-full effect */
-    opacity: 1; /* Ensure the button is fully opaque */
+    display: inline-block; /* Ensure button text is centered and allows for padding */
+    text-align: center;
+    font-size: 1rem; /* Adjust based on design requirements */
 }
 
-.button:hover {
-    background-color: #FFD700; /* Change to desired hover color */
-    transform: scale(1.1); /* Scale up slightly on hover */
+.join-button:hover, .join-button:focus {
+    background-color: var(--deep-blue); /* Change on hover/focus */
+    color: var(--gold);
+    transform: scale(1.05); /* Slightly increase size on hover/focus for feedback */
 }
