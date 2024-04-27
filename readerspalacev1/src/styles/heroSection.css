@@ -13,6 +13,23 @@
 }
 
 .herosection h1 {
-    font-size: 48px; /* Adjust this value to make the header bigger */
-    /* other styles for the header, if necessary */
+    font-size: 48px;
+}
+
+.herosection p {
+    font-size: 16px;
+}
+
+.join-button {
+    background-color: var(--gold);
+    color: var(--deep-blue);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.join-button:hover {
+    background-color: var(--deep-blue);
+    color: var(--gold);
 }

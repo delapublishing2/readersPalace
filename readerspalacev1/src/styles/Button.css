@@ -1,0 +1,12 @@
+/* src/styles/Button.css */
+.custom-button {
+    background-color: #002366; /* Deep Blue */
+    color: #FFFFF0; /* Ivory */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: #D4AF37; /* Gold */
+  }
