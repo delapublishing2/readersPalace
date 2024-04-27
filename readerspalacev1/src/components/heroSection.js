@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <section id="welcome" className="herosection">
       <div className="hero-section-header">
-        <h1>Welcome to Reader's Palace</h1>
+        <h1>Welcome to Reader's</h1>
         <h1> Palace</h1>
       </div>
       <div className="hero-section-text">
