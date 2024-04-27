@@ -1,12 +1,14 @@
-/* src/styles/Button.css */
-.custom-button {
-    background-color: #002366; /* Deep Blue */
-    color: #FFFFF0; /* Ivory */
+/* Global button styles, can be placed in App.css or button.css */
+button {
+    background-color: var(--gold); /* Gold color */
+    color: var(--deep-blue); /* Deep Blue color */
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-  }
-  
-  .custom-button:hover {
-    background-color: #D4AF37; /* Gold */
-  }
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--deep-blue); /* On hover, switch colors */
+    color: var(--gold);
+}
