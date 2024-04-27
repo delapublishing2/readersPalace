@@ -1,7 +1,7 @@
 // src/components/Navbar.js
 import React from 'react';
 import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/Navbar.css';
-
+import NavbarButton from './NavbarButton';
 const Navbar = ({ navigate }) => {
   return (
     <div className="app-wrapper">
