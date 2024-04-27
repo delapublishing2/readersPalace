@@ -1,0 +1,14 @@
+:root {
+    --gold: #D4AF37;
+    --deep-blue: #002366;
+    --ivory: #FFFFF0;
+    --charcoal-gray: #333333;
+    --burnished-bronze: #A17A74;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', serif;
+}
