@@ -1,1 +1,13 @@
-/* Start adding your new CSS rules here */
+/* Reset default browser padding and margin */
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  body {
+    /* Additional styles to ensure full height */
+    display: flex;
+    flex-direction: column;
+  }
