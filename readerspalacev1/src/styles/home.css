@@ -1,4 +1,7 @@
 /* src/styles/Home.css */
+
+@import url('/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/theme.css');
+
 .home section {
     margin: 20px;
     padding: 10px;

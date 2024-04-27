@@ -1,4 +1,8 @@
 /* src/styles/Navbar.css */
+
+
+@import url('/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/theme.css');
+
 nav {
     background-color: #002366; /* Deep Blue */
     color: #FFFFF0; /* Ivory */

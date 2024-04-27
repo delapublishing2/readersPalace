@@ -1,3 +1,6 @@
+@import url('/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/theme.css');
+
+
 .join-button {
     background-color: var(--gold); /* Gold color from theme.css */
     color: var(--deep-blue); /* Deep blue color from theme.css */

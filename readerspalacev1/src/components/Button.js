@@ -2,6 +2,7 @@
 import React from 'react';
 import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/Button.css';
 
+
 const Button = ({ onClick, children, className = '', type = 'button' }) => {
   const buttonClass = `join-button ${className}`; // Use join-button class for base styling
   return (

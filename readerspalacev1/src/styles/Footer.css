@@ -1,4 +1,8 @@
 /* src/styles/Footer.css */
+
+
+@import url('/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/theme.css');
+
 footer {
     background-color: #333333; /* Charcoal Gray */
     color: #FFFFF0; /* Ivory */
