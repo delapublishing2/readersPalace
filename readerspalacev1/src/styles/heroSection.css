@@ -1,6 +1,13 @@
 /* src/components/HeroSection.css */
-.herosection {
-    background-color: #f4f4f4;
-    padding: 20px;
-    text-align: center;
+.heroSection {
+    background-image: url('/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/assets/ReadersPalaceHero.JPG'); /* Adjust path as necessary */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Ensuring text is readable, adjust based on your image */
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /* Optional: Adds shadow to text for better readability */
   }
