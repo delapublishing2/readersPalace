@@ -4,14 +4,25 @@
 @import url('/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/theme.css');
 
 /* src/styles/Navbar.css */
+.navigationbar ul {
+  list-style-type: none; /* Removes the bullet points */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
-.navigationbar {
-  background-color: var(--deep-blue); /* Deep Blue color from theme.css */
-  color: gold;
-  padding: 16px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+.navigationbar li {
+  float: left; /* Aligns the links horizontally */
+}
+
+.navigationbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigationbar li a:hover {
+  background-color: #111; /* Changes the background color when hovered */
 }
