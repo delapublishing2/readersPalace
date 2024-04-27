@@ -20,8 +20,8 @@
 }
 
 .herosection p {
-    font-size: 28px;
+    font-size: 18px;
     text-align: center;
-    margin-bottom: 20px; /* Adjust the bottom margin as needed */
+    margin-bottom: 1rem; /* Adjust the bottom margin as needed */
     line-height: 0.1; /* Adjust line height for better readability */
 }
