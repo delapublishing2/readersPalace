@@ -18,7 +18,9 @@
 
 }
 
-.herosection p { font-size: 20px;
+.herosection p {
+    font-size: 28px;
     text-align: center;
-    
+    margin-bottom: 20px; /* Adjust the bottom margin as needed */
+    line-height: 1.6; /* Adjust line height for better readability */
 }
