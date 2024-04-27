@@ -5,8 +5,13 @@ import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles
 const HeroSection = () => {
   return (
     <div className="herosection">
-      <h1>Welcome to Reader's Palace</h1>
-      <p>Explore the world of books and join our community!</p>
+        <div className="hero-section-header">
+        <h1>Welcome to Reader's Palace</h1>
+        </div>
+     <div className="hero-section-text">
+     <p>Explore the world of books and join our community!</p>
+     </div>
+     
       {/* Add more elements as needed */}
     </div>
   );
