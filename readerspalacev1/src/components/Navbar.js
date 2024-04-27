@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/Navbar.css'; // Adjust the path as necessary based on your project structure
+import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/Navbar.css'; // Adjust the path as necessary based on your project structure
 
 function Navbar({ setCurrentPage }) {
   return (
