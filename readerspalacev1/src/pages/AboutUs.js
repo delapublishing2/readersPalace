@@ -1,7 +1,7 @@
 // src/components/HeaderSection.js
 import React from 'react';
 import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/HeaderSection.css'; 
-import Button from './buttons/JoinButton.js'; 
+import Button from '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/components/buttons/JoinButton.js'; 
 
 const HeaderSection = ({ title, subtitle, imageSrc }) => {
     console.log(title, subtitle); // Add this line to log the title and subtitle
