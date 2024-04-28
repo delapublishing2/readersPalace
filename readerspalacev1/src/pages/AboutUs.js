@@ -1,6 +1,7 @@
 // src/pages/AboutUs.js
 import React from 'react';
 import HeaderSection from '../components/HeaderSection.js';
+import HeroSection from '../components/heroSection.js';
 
 const AboutUs = () => {
   return (
@@ -14,5 +15,6 @@ const AboutUs = () => {
     </div>
   );
 };
+<HeroSection />
 
 export default AboutUs
