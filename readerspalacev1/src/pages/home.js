@@ -20,6 +20,7 @@ const Home = () => {
       <CtaSection />
       <GallerySection />
       <FaqSection />
+      <CtaSection />
       {/* Include other sections here */}
     </div>
   );
