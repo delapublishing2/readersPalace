@@ -1,7 +1,7 @@
 // src/pages/AboutUs.js 
 import React from 'react'; 
 import HeaderSection from '../components/HeaderSection.js'; 
-import ReadersPalaceAboutUs from '.readerspalacev1/src/assets/ReadersPalaceAboutUs.JPG'; 
+import ReadersPalaceAboutUs from '../assets/ReadersPalaceAboutUs.JPG';
 
 const AboutUs = () => { 
   return ( 
