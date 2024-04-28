@@ -1,6 +1,6 @@
 // src/components/GallerySection.js
 import React from 'react';
-import './styles/GallerySection.css'; // Import your CSS file
+import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/GallerySection.css'; // Import your CSS file
 
 const GallerySection = () => {
   return (
