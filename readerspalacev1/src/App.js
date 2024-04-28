@@ -1,6 +1,6 @@
 // src/App.js
 import React, { useState } from 'react';
-import Home from './pages/Home';
+import Home from './pages/home';
 import AboutUs from './pages/AboutUs';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -17,7 +17,7 @@ function App() {
   return (
       <div>
   <Navbar navigate={navigate} />
-  {currentPage === 'Home' && <Home />} // This will render the Home component if currentPage is 'home'
+  {currentPage === 'home' && <Home />} // This will render the Home component if currentPage is 'home'
   {currentPage === 'AboutUs' && <AboutUs />} // This will render the AboutUs component if currentPage is 'AboutUs'
   {/* Add other conditional renders for different pages */}
       <Footer />
