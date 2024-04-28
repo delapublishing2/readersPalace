@@ -1,27 +1,21 @@
-// src/App.js
-import React, { useState } from 'react';
-import Home from './pages/home';
-import AboutUs from '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/pages/AboutUs.js';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/App.css';
-
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navbar from './components/Navbar.js';
+import Footer from './components/Footer.js'; // Assuming you have a Footer component
+import HomePage from './pages/home.js';
+import AboutUsPage from './pages/AboutUs.js';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('home');
-
-  const navigate = (page) => {
-    setCurrentPage(page);
-  };
-
   return (
-      <div>
-  <Navbar navigate={navigate} />
-  {currentPage === 'home' && <Home />} // This will render the Home component if currentPage is 'home'
-{currentPage === 'AboutUs' && <AboutUs />} // This will render the AboutUs component if currentPage is 'AboutUs'
-  {/* Add other conditional renders for different pages */}
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path="/" exact component={HomePage} />
+        <Route path="/about-us" component={AboutUsPage} />
+        {/* Add more routes as needed */}
+      </Switch>
       <Footer />
-    </div>
+    </Router>
   );
 }
 
