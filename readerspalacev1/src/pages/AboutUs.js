@@ -1,20 +1,17 @@
-// src/pages/AboutUs.js
+// src/components/HeaderSection.js
 import React from 'react';
-import HeaderSection from '../components/HeaderSection.js';
-import HeroSection from '../components/heroSection.js';
+import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/HeaderSection.css'; 
+import Button from './buttons/JoinButton.js'; 
 
-const AboutUs = () => {
+const HeaderSection = ({ title, subtitle, imageSrc }) => {
+    console.log(title, subtitle); // Add this line to log the title and subtitle
     return (
-      <div>
-        <HeaderSection 
-          title="About Us" 
-          subtitle="Introducing Reader's Palace and its dedication to celebrating the love of literature."
-          imageSrc="/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/assets/ReadersPalaceContact.JPG" 
-        />
-        <p> hi</p>
-        <HeroSection />
+      <div className="header-section" style={{ backgroundImage: `url(${imageSrc})` }}>
+        <h1>{title}</h1>
+        <p>{subtitle}</p>
+        <Button />
       </div>
     );
 };
 
-export default AboutUs;
+export default HeaderSection;
