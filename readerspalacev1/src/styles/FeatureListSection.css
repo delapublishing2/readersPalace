@@ -1,0 +1,23 @@
+/* src/styles/FeatureListSection.css */
+
+.feature-list-section {
+    background-color: var(--ivory);
+    color: var(--deep-blue);
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .feature-list-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-list-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .feature-list-section li {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
