@@ -21,7 +21,6 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about-us" element={<AboutUsPage />} />
-          <Route path="/events" element={<EventsPage />} />
           <Route path="/blogs" element={<BlogsPage />} />
           <Route path="/book-clubs" element={<BookClubsPage />} />
           <Route path="/contests" element={<ContestsPage />} />
