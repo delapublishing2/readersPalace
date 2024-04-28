@@ -14,8 +14,9 @@ const Home = () => {
       <HeroSection />
       <FeatureSection />
       <FeatureListSection />
-      <BenefitsSection />
       <CtaSection />
+      <BenefitsSection />
+      
       {/* Include other sections here */}
     </div>
   );
