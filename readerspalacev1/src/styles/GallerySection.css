@@ -1,9 +1,10 @@
 /* styles/GallerySection.css */
+/* styles/GallerySection.css */
 .gallery-section {
-    background-color: deepblue;
-    color: gold;
+    background-color: #FFFFF0; /* Ivory background */
+    color: #002366; /* Deep Blue text */
     /* Add more styles as needed */
-  }
+}
   
   .gallery-items {
     display: flex;
