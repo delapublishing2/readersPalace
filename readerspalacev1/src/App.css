@@ -1,4 +1,12 @@
 /* Reset default browser padding and margin */
+/* src/App.css */
+
+* {
+  padding-top: 0;
+  padding-left: 0;
+}
+
+
 html, body, #root {
     margin: 0;
     padding: 0;
