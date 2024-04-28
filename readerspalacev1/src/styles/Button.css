@@ -4,7 +4,7 @@
 .join-button {
     background-color: var(--gold); /* Gold color from theme.css */
     color: var(--deep-blue); /* Deep blue color from theme.css */
-    padding: 10px 15px;
+    padding: 20px 35px;
     font-weight: bold;
     border: none;
     cursor: pointer;
