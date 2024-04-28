@@ -41,9 +41,9 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: small;
+  font-size: medium;
 }
 
 .navigationbar li a:hover {
-  color: yellow; /* Changes the background color when hovered */
+  color: rgb(232, 199, 16); /* Changes the background color when hovered */
 }
