@@ -30,6 +30,10 @@
   padding: 0;
   overflow: hidden;
 }
+.navigationbar ul {
+  display: flex;
+  justify-content: space-between;
+}
 
 .navigationbar li {
   float: left; /* Aligns the links horizontally */
@@ -41,7 +45,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: medium;
+  font-size: large;
 }
 
 .navigationbar li a:hover {
