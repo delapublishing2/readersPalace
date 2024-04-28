@@ -1,0 +1,19 @@
+/* src/styles/FaqSection.css */
+
+.faq-section {
+    background-color: #f9f9f9; /* Light grey background */
+    color: #333; /* Dark grey text */
+    padding: 20px; /* Padding around the section */
+}
+
+.faq-item {
+    margin-bottom: 10px; /* Space between each FAQ item */
+}
+
+.faq-question {
+    font-weight: bold; /* Make the questions bold */
+}
+
+.faq-answer {
+    margin-left: 10px; /* Indent the answers a bit */
+}

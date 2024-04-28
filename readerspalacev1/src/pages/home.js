@@ -6,6 +6,8 @@ import FeatureSection from '../components/FeatureSection';
 import FeatureListSection from '../components/FeatureListSection';
 import BenefitsSection from '../components/BenefitsSection';
 import CtaSection from '../components/CtaSection';
+import GallerySection from '../components/GallerySection';
+import FaqSection from '../components/FaqSection';
 // Import other sections
 
 const Home = () => {
@@ -16,6 +18,9 @@ const Home = () => {
       <FeatureListSection />
       <CtaSection />
       <BenefitsSection />
+<GallerySection />
+<FaqSection /> 
+<CtaSection />
       
       {/* Include other sections here */}
     </div>
