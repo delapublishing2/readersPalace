@@ -1,0 +1,16 @@
+/* src/styles/FaqSection.css */
+
+.faq-section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .faq-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .faq-section p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
