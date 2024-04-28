@@ -10,6 +10,7 @@ const AboutUs = () => {
         subtitle="Introducing Reader's Palace and its dedication to celebrating the love of literature."
         imageSrc="/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/assets/ReadersPalaceContact.JPG" 
       />
+      <p> hi</p>
     </div>
   );
 };
