@@ -1,6 +1,6 @@
 // src/components/AboutUsHeroSection.js
 import React from 'react';
-import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/heroSection.css'; 
+import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/AboutUsHeroSection.css'; 
 import Button from './JoinButton'; // Assuming Button is a custom component styled according to your project's needs
 
 const AboutUsHeroSection = () => {
