@@ -15,8 +15,6 @@ const AboutUs = () => {
         <HeroSection />
       </div>
     );
-  };
+};
 
-<HeroSection />
-
-export default AboutUs
+export default AboutUs;
