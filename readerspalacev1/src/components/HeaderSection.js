@@ -1,6 +1,6 @@
 // src/components/Header.js
 import React from 'react';
-import '.styles/HeaderSection.css'; 
+import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/HeaderSection.css'; 
 import Button from './buttons/JoinButton.js'; 
 
 const HeaderSection = ({ title, subtitle, imageSrc }) => {
