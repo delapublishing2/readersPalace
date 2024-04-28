@@ -1,6 +1,6 @@
 // src/components/FeatureListSection.js
 import React from 'react';
-import '.FeatureListSection.js';
+import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/FeatureListSection.css';
 
 const FeatureListSection = () => {
   const features = ['Upcoming Events', 'Book Clubs', 'Contests', 'Latest Blog Posts'];
