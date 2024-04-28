@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/App.css';
 
+
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
 
