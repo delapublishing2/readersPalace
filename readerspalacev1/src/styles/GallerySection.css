@@ -1,0 +1,18 @@
+/* styles/GallerySection.css */
+.gallery-section {
+    background-color: deepblue;
+    color: gold;
+    /* Add more styles as needed */
+  }
+  
+  .gallery-items {
+    display: flex;
+    justify-content: space-around;
+    /* Add more styles as needed */
+  }
+  
+  .gallery-items img {
+    width: 200px;
+    height: 200px;
+    /* Add more styles as needed */
+  }
