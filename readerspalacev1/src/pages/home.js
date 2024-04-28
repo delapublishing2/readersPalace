@@ -4,6 +4,7 @@ import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles
 import HeroSection from '../components/heroSection'
 import FeatureSection from '../components/FeatureSection';
 import FeatureListSection from '../components/FeatureListSection';
+import BenefitsSection from '../components/BenefitsSection';
 import CtaSection from '../components/CtaSection';
 import GallerySection from '../components/GallerySection';
 import FaqSection from '../components/FaqSection';
@@ -15,6 +16,7 @@ const Home = () => {
       <HeroSection />
       <FeatureSection />
       <FeatureListSection />
+      <BenefitsSection />
       <CtaSection />
       <GallerySection />
       <FaqSection />
