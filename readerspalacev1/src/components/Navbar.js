@@ -1,27 +1,22 @@
 // src/components/Navbar.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/styles/Navbar.css';
-import NavbarButton from './buttons/NavbarButton.js';
-const Navbar = ({ navigate }) => {
+
+const Navbar = () => {
   return (
     <div className="app-wrapper">
-      <nav className="navigationbar">
-        <div className="container mx-auto flex justify-between items-center">
-        <ul className="flex space-x-6">
-  <div>
-    <li><a className="readers-palace" onClick={() => navigate('home')}>Reader's Palace</a></li>
-    <li><a className="navbar-link" onClick={() => navigate('home')}>Home</a></li>
-<li><a className="navbar-link" onClick={() => navigate('events')}>Events</a></li>
-<li><a className="navbar-link" onClick={() => navigate('bookclubs')}>Book Clubs</a></li>
-<li><a className="navbar-link" onClick={() => navigate('contests')}>Contests</a></li>
-<li><a className="navbar-link" onClick={() => navigate('blogs')}>Blogs</a></li>
-<li><a className="navbar-link" onClick={() => navigate('about-us')}>About Us</a></li>
-  </div>
-  <li> <NavbarButton onClick={() => navigate('signup')}>Sign Up</NavbarButton></li>
-</ul>
-        </div>
-        
-      </nav>
+      <Link to="/">Home</Link>
+      <Link to="/about-us">About Us</Link>
+      <Link to="/events">Events</Link>
+      <Link to="/blogs">Blogs</Link>
+      <Link to="/book-clubs">Book Clubs</Link>
+      <Link to="/contests">Contests</Link>
+      <Link to="/resources">Resources</Link>
+      <Link to="/authors-spotlight">Authors Spotlight</Link>
+      <Link to="/forums">Forums</Link>
+      <Link to="/signup">Signup</Link>
+      {/* Add more links as needed */}
     </div>
   );
 };

@@ -7,52 +7,16 @@
 
 /* src/styles/Navbar.css */
 
-.readers-palace {
-  color: gold;
-  font-weight: bold;
-  font-size: 1.5em; /* adjust as needed */
-}
-.navigationbar {
-  background-color: black; /* bg-black */
-  color: gold; /* text-gold */
-  padding: 1rem 0; /* py-4 */
-  position: fixed; /* fixed */
-  width: 100%; /* w-full */
-  z-index: 50; /* z-50 */
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
-  transition: all 0.3s; /* transition-all duration-300 */
-  justify-content: center;
-  /* Add other styles for the navigation bar */
-}
-
-.navigationbar ul {
-  list-style-type: none; /* Removes the bullet points */
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-.navigationbar ul {
+/* src/styles/Navbar.css */
+.app-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #333;
 }
 
-.navigationbar li {
-  float: left; /* Aligns the links horizontally */
-}
-
-.navigationbar li a {
-  display: block;
+.app-wrapper a {
   color: gold;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
-  
-}
-
-.navigationbar li a:hover {
-  color: rgb(232, 199, 16); /* Changes the background color when hovered */
-}
-
-.navbar-link {
-  font-size: large; /* adjust as needed */
+  font-size: 1.2em;
 }
