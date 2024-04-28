@@ -1,8 +1,10 @@
 /* src/styles/Header.css */
+/* src/styles/Header.css */
 .header-section {
     height: 100vh; /* Full viewport height */
     background-size: cover; /* Cover the entire width of the div */
     background-position: center; /* Center the background image */
+    background-color: #f0f0f0; /* Add a background color */
     color: #FFFFFF; /* White text */
     display: flex;
     flex-direction: column;
@@ -10,6 +12,7 @@
     align-items: center;
     text-align: center;
 }
+
 
 .header-section h1 {
     font-size: 3em; /* Large title */
