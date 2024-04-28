@@ -11,6 +11,7 @@ import ContestsPage from './pages/ContestsPage.js'
 import ForumsPage from './pages/ForumsPage.js'
 import ResourcesPage from './pages/ResourcesPage.js'
 import SignupPage from './pages/SignupPage.js'
+import EventsPage from '.pages/EventsPage.js'
 import '/Users/jazzyme/Documents/GitHub/readersPalace/readerspalacev1/src/App.css'
 
 function App() {
