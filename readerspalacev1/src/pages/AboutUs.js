@@ -1,6 +1,6 @@
 // src/pages/AboutUs.js
 import React from 'react';
-import HeaderSection from '../components/HeaderSection';
+import HeaderSection from '../components/HeaderSection.js';
 
 const AboutUs = () => {
   return (
