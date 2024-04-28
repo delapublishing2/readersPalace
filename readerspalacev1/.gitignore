@@ -21,3 +21,24 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# .gitignore
+
+# Node.js related
+node_modules/
+npm-debug.log
+
+# Build directory
+/build
+
+# Environment files
+.env
+
+# IDE - VSCode
+.vscode
+
+# MacOS system files
+.DS_Store
+
+# Yarn integrity file
+.yarn-integrity
