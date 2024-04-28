@@ -7,7 +7,7 @@ const AboutUs = () => {
   return ( 
     <div> 
       <HeaderSection 
-        title="About Us" 
+        title="About Uss" 
         subtitle="Introducing Reader's Palace and its dedication to celebrating the love of literature." 
         imageSrc={ReadersPalaceAboutUs}
       /> 
