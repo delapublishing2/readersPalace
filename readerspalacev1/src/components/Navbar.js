@@ -8,8 +8,8 @@ const Navbar = ({ navigate }) => {
       <nav className="navigationbar">
         <div className="container mx-auto flex justify-between items-center">
         <ul className="flex space-x-6">
-        <li><a className="readers-palace" onClick={() => navigate('home')}>Reader's Palace</a></li>
   <div>
+    <li><a className="readers-palace" onClick={() => navigate('home')}>Reader's Palace</a></li>
     <li><a className="navbar-link" onClick={() => navigate('home')}>Home</a></li>
 <li><a className="navbar-link" onClick={() => navigate('events')}>Events</a></li>
 <li><a className="navbar-link" onClick={() => navigate('bookclubs')}>Book Clubs</a></li>
