@@ -18,7 +18,7 @@ function App() {
     <div>
       <Navbar navigate={navigate} />
       {currentPage === 'home' && <Home />}
-      {currentPage === 'about-us' && <AboutUs />}
+      {currentPage === 'AboutUs' && <AboutUs />}
       {/* Add other conditional renders for different pages */}
       <Footer />
     </div>
