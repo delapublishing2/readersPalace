@@ -51,3 +51,7 @@
 .navigationbar li a:hover {
   color: rgb(232, 199, 16); /* Changes the background color when hovered */
 }
+
+.navbar-link {
+  font-size: large; /* adjust as needed */
+}

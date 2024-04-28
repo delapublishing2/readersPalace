@@ -10,12 +10,12 @@ const Navbar = ({ navigate }) => {
         <ul className="flex space-x-6">
   <div>
     <li><a className="readers-palace" onClick={() => navigate('home')}>Reader's Palace</a></li>
-    <li><a onClick={() => navigate('home')}>Home</a></li>
-    <li><a onClick={() => navigate('events')}>Events</a></li>
-    <li><a onClick={() => navigate('bookclubs')}>Book Clubs</a></li>
-    <li><a onClick={() => navigate('contests')}>Contests</a></li>
-    <li><a onClick={() => navigate('blogs')}>Blogs</a></li>
-    <li><a onClick={() => navigate('about-us')}>About Us</a></li>
+    <li><a className="navbar-link" onClick={() => navigate('home')}>Home</a></li>
+<li><a className="navbar-link" onClick={() => navigate('events')}>Events</a></li>
+<li><a className="navbar-link" onClick={() => navigate('bookclubs')}>Book Clubs</a></li>
+<li><a className="navbar-link" onClick={() => navigate('contests')}>Contests</a></li>
+<li><a className="navbar-link" onClick={() => navigate('blogs')}>Blogs</a></li>
+<li><a className="navbar-link" onClick={() => navigate('about-us')}>About Us</a></li>
   </div>
   <li> <NavbarButton onClick={() => navigate('signup')}>Sign Up</NavbarButton></li>
 </ul>
