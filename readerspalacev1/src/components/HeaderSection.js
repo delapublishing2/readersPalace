@@ -10,7 +10,7 @@ const HeaderSection = ({ title, subtitle, imageSrc }) => {
       <div className="header-section" style={{ backgroundImage: `url(${imageSrc})` }}>
         <h1>{title}</h1>
         <p>{subtitle}</p>
-        <Button />
+        <Button>Join Now</Button>
       </div>
     );
 };
